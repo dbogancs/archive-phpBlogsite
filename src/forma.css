@@ -1,0 +1,149 @@
+
+/* ALTALANOS FORMAZASOK */
+
+BODY {
+	font-family: "Comic Sans MS", Arial, sans-serif;  
+    font-size: 16px;  
+    margin:0 0 0 0;  
+    padding: 0 0 0 0;  
+    background: #080;
+    text-align: center;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+/* GYAKRAN HASZNALT */
+
+.focim {
+	font-size:96px;
+	color:#909;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0 0 70px #FF0;
+}
+
+.keret {
+	border: 5px ridge #909;
+	background: #FFF;
+	text-align: justify;
+}
+
+.belsoszegely{
+	padding: 5;
+}
+
+.kitoltes {
+	border: 5px #909;
+	background: #909;
+	color: #FF0;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	padding:5;
+}
+
+.globalcontainer {
+	width: 90%;
+	min-width: 800px;
+    margin: 0 auto; 
+}
+.vekonycontainer {
+	width: 50%;
+	min-width: 400px;
+    margin: 0 auto; 
+}
+
+
+/* SPECIALIS */
+
+.aprobetus{
+	font-size: 12px; 
+}
+
+.figyelem{
+	color: #F00;
+}
+
+.postlink{
+	background: transparent;
+    border: none !important;
+	cursor: pointer;
+}
+
+/* WEBOLDAL FOBB ELEMEI */
+
+	.fejlec {
+
+	}
+		.felhasznalo {
+			height: auto;
+		}		
+			.belepes {
+				width: 600px;
+				float: left;
+				text-align: left;
+				height: auto;
+			}
+			.regisztracio {
+				margin-left: 600px;
+				text-align: right;
+				height: auto;
+			}		
+		.szabalyok {
+		
+		}
+			.koszonto {
+				
+			}
+			.segitseg {font-family: "Times New Roman", sans-serif;
+				border-bottom: 5px ridge #909;
+				padding: 5;
+			}
+			.jelmagyarazat {
+				padding: 5;
+			}
+	
+	.torzs {
+		font-size: 14px;
+	}
+		.lista {
+			float: left;
+			width:290px;
+		}
+		.bejegyzes {
+			margin-left: 315px;
+		}
+			.tartalom {
+				border-bottom: 5px ridge #909;
+				padding: 5;
+			}
+			.cimeressor{
+				
+			}
+				.cimkek {
+					min-height:250px;
+					margin-right: 255px;
+					border-right: 5px ridge #909;
+				}
+				.cimer {
+					margin-left: 220px;
+					float:top;
+				}
+			.bejegyzesszoveg {
+				font-family: "Times New Roman", sans-serif;
+				float: bottom;
+				padding: 5;
+			}
+			
+			.balratart {
+				width: 90%;
+				float: left;
+				height: auto;
+			}
+			.jobbratart{
+				text-align: left;
+			}
